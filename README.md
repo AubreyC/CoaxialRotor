@@ -5,7 +5,7 @@ This document presents the main steps to build a flyable coaxial-rotor UAV.
 
 ## Manufactering process
 	
-The Coaxial-rotor UAV is composed of off-the-shelf electronics parts and plywood / foam-board laser cut parts. The following list of components and CAD files corresponds to a medium-size configuration shown in the following picture. 
+The Coaxial-rotor UAV is composed of off-the-shelf electronic parts and plywood / foam-board laser cut parts. The following list of components and CAD files corresponds to a medium-size configuration shown in the following picture. 
 
 ![alt text](graphics/Prototype_4.jpg)
 
@@ -32,7 +32,7 @@ Assembled Prototype
 ##### CAD files
 
 This Coaxial-rotor UAV has been designed to be fully laser-cut, and assembled using hot-glue and zip-ties. The CAD files are in the [CAD folder](https://github.com/AubreyC/CoaxialRotor/tree/master/CAD). 
- 
+
 ###### Plywood 5mm:
 - Main Frame: Part 1 (frame_1.SLDPRT) / Part 2 (frame_2.SLDPRT)
 - Motor mount: 2 x Part (motorMount.SLDPRT)
@@ -151,7 +151,9 @@ Once the code is uploaded on the PIXHAWK, some parameters need to be changed for
 	MC_YAW_FF	0.50
 	MC_YAW_P	1.40
 
-__NOTE:__ The [Parameter file](https://github.com/AubreyC/CoaxialRotor/blob/master/parameters/parameters_PX4_CoaxialRotor.params), from one flying prototype has been saved. This file contains the attitude gains, as well as the system start-up number for the coaxial-rotor configuration. Be carefull, this parameter file also contains all the calibration data, which are different from one system to the other. 
+__NOTE:__ The [Parameter file](https://github.com/AubreyC/CoaxialRotor/blob/master/parameters/parameters_PX4_CoaxialRotor.params), from one flying prototype has been saved. This file contains the attitude gains, as well as the system start-up number for the coaxial-rotor configuration. Be carefull, this parameter file also contains all the calibration data, which are different from one system to the other.
+
+
 
 
 
