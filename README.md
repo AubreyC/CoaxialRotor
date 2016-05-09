@@ -31,7 +31,8 @@ Assembled Prototype
 
 ##### CAD files
 
-This Coaxial-rotor UAV has been designed to be fully laser-cut, and assembled using hot-glue and zip-ties. The CAD files are in the CAD folder.  
+This Coaxial-rotor UAV has been designed to be fully laser-cut, and assembled using hot-glue and zip-ties. The CAD files are in the [CAD folder](https://github.com/AubreyC/CoaxialRotor/tree/master/CAD). 
+ 
 ###### Plywood 5mm:
 - Main Frame: Part 1 (frame_1.SLDPRT) / Part 2 (frame_2.SLDPRT)
 - Motor mount: 2 x Part (motorMount.SLDPRT)
@@ -120,7 +121,7 @@ Building and uploading:
 
 Once the code is uploaded on the PIXHAWK, some parameters need to be changed for the coaxial-configuration: 
 - SYS_AUTOSTART: set it to __15002__ which corresponds to the custom start-up script.
-- __Attitude Gains__: Gains are proposed as a start but are probably not optimal. It is recommended to tune them for better performances. 
+- Attitude Gains: Gains are proposed as a start but are probably not optimal. It is recommended to tune them for better performances. 
 
 ###### Proposed Gains: 
 	MC_ACRO_P_MAX	360.0
