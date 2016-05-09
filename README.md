@@ -151,7 +151,7 @@ Once the code is uploaded on the PIXHAWK, some parameters need to be changed for
 	MC_YAW_FF	0.50
 	MC_YAW_P	1.40
 
-__NOTE:__ The [Parameter file](http://dev.px4.io/starting-building.html), from one flying prototype has been saved. This file contains the attitude gains, as well as the system start-up number for the coaxial-rotor configuration. Be carefull, this parameter file also contains all the calibration data, which are different from one system to the other. 
+__NOTE:__ The [Parameter file](https://github.com/AubreyC/CoaxialRotor/blob/master/parameters/parameters_PX4_CoaxialRotor.params), from one flying prototype has been saved. This file contains the attitude gains, as well as the system start-up number for the coaxial-rotor configuration. Be carefull, this parameter file also contains all the calibration data, which are different from one system to the other. 
 
 
 
