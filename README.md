@@ -21,7 +21,7 @@ Assembled Prototype
 - Propellers: 2 x 
 - 4 servomotors: 4 x Hextronik HXT 500
 
-### Manufactered:
+### Manufactering:
 ##### Material needed  
 - Plywood (6mmm and 3mm)
 - Foam-board (6mm)
